@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>JS페인트</title>
+  </head>
+  <body>
+    <canvas id="jsCanvas" class="canvas"></canvas>
+    <div class="controls">
+      <div class="Brush_Size">
+        <input
+          type="range"
+          id="Brush"
+          min="0.2"
+          max="13"
+          value="2.5"
+          step="0.1"
+        />
+      </div>
+      <div class="Btns">
+        <button id="Mode">채우기</button>
+        <button id="Save">이미지저장</button>
+      </div>
+      <div id="jsColors" class="controls_colors">
+        <div class="colors" style="background-color: #2c2c2c"></div>
+        <div class="colors" style="background-color: #fff"></div>
+        <div class="colors" style="background-color: #ff3b30"></div>
+        <div class="colors" style="background-color: #ff9500"></div>
+        <div class="colors" style="background-color: #ffcc00"></div>
+        <div class="colors" style="background-color: #4cd963"></div>
+        <div class="colors" style="background-color: #5ac8fa"></div>
+        <div class="colors" style="background-color: #0579ff"></div>
+        <div class="colors" style="background-color: #5856d6"></div>
+      </div>
+    </div>
+    <script src="App.js"></script>
+  </body>
+</html>
